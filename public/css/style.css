@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "myfont";
+  src: url(../assets/font/ElMessiri-SemiBold.ttf);
+}
+
+* {
+  transition: all 0.2s;
+  font-family: "myfont";
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../assets/image/gradienta-gwE9vXSi7Xw-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* ============================================================ */
+
+.login_bg {
+  width: 100%;
+  height: 100vh;
+}
+
+.form_box {
+  box-shadow: 10px 20px 40px;
+  border-radius: 20px;
+  height: 80%;
+}
+
+.login_image {
+  width: 100%;
+  background-color: rgb(229, 231, 231);
+  border-radius: 20px 0px 0px 20px;
+}
+
+.login_image img {
+  height: 80%;
+  border-radius: 50%;
+  border: 5px solid rgb(223, 197, 247);
+}
+
+.login_forms {
+  width: 100%;
+  border-radius: 0px 20px 20px 0px;
+  background-color: rgb(106, 174, 230);
+}
+
+.login_forms h3 {
+  margin-top: 15%;
+}
+
+.login_forms h4 {
+  margin-top: 15%;
+}
+
+
+.forms_styles {
+  position: relative;
+}
+
+.forms_styles input {
+  border-radius: 30px;
+  padding-right: 40px;
+  text-align: justify;
+  text-indent: 30px;
+  box-shadow: inset 15px 15px 15px #c6c8ca, inset -15px -15px 15px #fff;
+}
+
+.forms_styles span {
+  position: absolute;
+  top: 54%;
+  margin-left: 3%;
+  left: 75%;
+  font-size: 15px;
+  opacity: 70%;
+}
+
+.personal_error {
+  position: absolute;
+  top: 100%;
+  border-radius: 5px;
+  left: 75%;
+  font-size: 70%;
+}
+
+.forms_styles input::placeholder {
+  margin-right: 15%;
+  text-align: right;
+}
+
+.forms_styles input:active {
+  box-shadow: 2px 3px 3px 5px #52be88;
+}
+
+.login_button button {
+  border-radius: 30px;
+}
+
+.login_button a {
+  text-decoration: none;
+  color: rgb(28, 28, 29);
+}
+
+.login_button a:hover {
+  color: #000;
+}
+
+.login_button a:active {
+  color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 500px) {
+  .personal_error {
+    position: absolute;
+    top: 100%;
+    border-radius: 5px;
+    left: 60%;
+    font-size: 60%;
+  }
+}
